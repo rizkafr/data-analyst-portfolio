@@ -1,90 +1,50 @@
-# E-Commerce Sales Analysis
+# Coffee Sales Report (Interactive Dashboard creation using MS Excel)
 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Data Sources](#data-sources)
-- [Recommendations](#recommendations)
+- [Dataset used](#dataset-used)
+- [Questions](#questions)
+- [Process](#process)
+- [Dashboard](#dashboard)
+- [Project Insight](#project-insight)
+- [Final Conclusion](#final-conclusion)
 
-### Project Overview
----
+## Project Overview
+This project involves creating an Excel dashboard to analyze coffee sales data. The dashboard will include visualizations of sales volume, total revenue, sales trends over time, sales distribution by country, and top-performing customers. Advanced Excel features like slicers, filters, timeline tools, pivot tables, XLOOKUP, and INDEX MATCH will be utilized to create an interactive and comprehensive analysis.
 
-This data analysis project aims to provide insights into the sales performance of an e-commerce company over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
+## Dataset used
+- <a href="https://github.com/rizkafr/data-analyst-portfolio/blob/main/coffee-sales-report/Coffee%20Sales%20Report_Data.xlsx">Dataset</a>
 
-![bar plot]( https://www.mongodb.com/docs/charts/images/charts/grouped-column-chart-reference-small.png)
+## Questions (KPIs)
+- Compare the sales and orders using single chart.
+- Which month got the highest sales and orders?
+- Who purchased more - Men or Women?
+- What are different order status in 2022?
+- List top 10 states contributingto the sales?
+- Relation between age and gender based on number of orders.
+- Which Channel is contributing maximum to the sales?
+- Highest selling category?
+- Percentage of Total Orders delivered
 
+- Dashboard Interaction <a href="https://github.com/ritikbh193/Data-Analytics-with-Excel/blob/main/Dashboard_Image.png">View Dashboard</a>
 
-### Data Sources
+## Process
+- Verify data for any missing values and anomalies, and sort out the same.
+- Made sure data is consistent and clean with respect to data type, data format and values used.
+- Created pivot tables according to the questions asked.
+- Merge all pivot tables into one dashboard and apply slicer to make dynamic.
 
-Sales Data: The primary dataset used for this analysis is the "sales_data.csv" file, containing detailed information about each sale made by the company.
+## Dashboard
 
-### Tools
+![Screenshot (495)](https://github.com/user-attachments/assets/17a62479-5cdc-4be7-9373-f264201d276e)
 
-- Excel - Data Cleaning
-  - [Download here](https://microsoft.com)
-- SQL Server - Data Analysis
-- PowerBI - Creating reports
+## Project Insight
+- Women customers are more likely to buy products compared to men (~65%).
+- The states of Maharashtra, Karnataka and Uttar Pradesh are the top 3 product buyers.
+- The adult age group (30-49 yrs) is max contributing (~50%) and buys the most products.
+- The maximum number of products customer orders from Amazon, Flipkart and Myntra channels.
+- More than 90% of the products delivered
 
-
-### Data Cleaning/Preparation
-
-In the initial data preparation phase, we performed the following tasks:
-1. Data loading and inspection.
-2. Handling missing values.
-3. Data cleaning and formatting.
-
-### Exploratory Data Analysis
-
-EDA involved exploring the sales data to answer key questions, such as:
-
-- What is the overall sales trend?
-- Which products are top sellers?
-- What are the peak sales periods?
-
-### Data Analysis
-
-Include some interesting code/features worked with
-
-```sql
-SELECT * FROM table1
-WHERE cond = 2;
-```
-
-### Results/Findings
-
-The analysis results are summarized as follows:
-1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
-2. Product Category A is the best-performing category in terms of sales and revenue.
-3. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
-
-### Recommendations
-
-Based on the analysis, we recommend the following actions:
-- Invest in marketing and promotions during peak sales seasons to maximize revenue.
-- Focus on expanding and promoting products in Category A.
-- Implement a customer segmentation strategy to target high-LTV customers effectively.
-
-### Limitations
-
-I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
-
-### References
-
-1. SQL for Businesses by werty.
-2. [Stack Overflow](https://stack.com)
-
-😄
-
-💻
-
-|Heading1|Heading2|
-|--------|--------|
-|Content|Content2|
-|Python|SQL|
-
-`column_1`
-
-**bold**
-
-*italic*
-
+## Final Conclusion:
+To improve the sales of Vrinda Store, a strategic marketing plan focused on women aged 30-49 years residing in Maharashtra, Karnataka, and Uttar Pradesh should be implemented. This demographic represents a key consumer segment, as they often make significant household and lifestyle purchases. The approach should include targeted digital marketing campaigns and personalized promotions to capture their attention.
